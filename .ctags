@@ -1,0 +1,16 @@
+--languages=Python
+--exclude=.git
+--exclude=__pycache__
+--exclude=.conda
+
+--recurse=yes            
+--fields=+n              
+--fields=+l              
+--fields=+K              
+--extras=+q              
+--extras=+f              
+--sort=yes               
+--tag-relative=yes       
+--output-format=tags     
+
+--python-kinds=-iv
